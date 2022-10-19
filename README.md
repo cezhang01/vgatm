@@ -3,7 +3,7 @@ This is the tensorflow implementation of KDD-2022 paper "[Variational Graph Auth
 
 VGATM is a Grapn Neural Network model that extracts interpretable topics for documents with authors and venues. Topics of documents then fulfill document classification, citation prediction, etc.
 
-![](/paper/model_architecture.jpg)
+![](/paper/model_architecture.JPG)
 
 ## Implementation Environment
 - Python == 3.6
