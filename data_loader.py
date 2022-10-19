@@ -36,8 +36,8 @@ class Data():
 
         print('Loading data...')
         self.documents = self.load_files('./data/' + self.dataset_name + '/contents.txt')
-        if not self.author_prediction:
-            self.doc_contents_bow = np.loadtxt('./data/' + self.dataset_name + '/contents_bow.txt')
+        #if not self.author_prediction:
+            #self.doc_contents_bow = np.loadtxt('./data/' + self.dataset_name + '/contents_bow.txt')
         self.num_documents = len(self.documents)
         self.citations, self.num_citations = self.symmatrize_links(self.load_files('./data/' + self.dataset_name + '/citations.txt'))
         self.pairwise_citations = self.generate_pairwise_links(self.citations)
